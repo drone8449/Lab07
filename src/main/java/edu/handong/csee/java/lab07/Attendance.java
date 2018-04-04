@@ -1,7 +1,7 @@
-package edu.handong.csee.java.lab07;
-import java.util.*;
+package edu.handong.csee.java.lab07;    // package name
+import java.util.*;   // import * class
 
-public class Attendance {
+public class Attendance {   // make public class 'Attendance'
 	private String name = "";
 	private int year = 0;
 	private String student_id = "";
