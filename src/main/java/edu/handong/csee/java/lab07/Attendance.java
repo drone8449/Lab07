@@ -1,12 +1,19 @@
 package edu.handong.csee.java.lab07;    // package name
 import java.util.*;   // import * class
 
+/**
+ * This class prints grading
+ * @author 21700184
+ */
 public class Attendance {   // make public class 'Attendance'
 	private String name = "";   // declare and initialize name
 	private int year = 0;   // declare and initialize year
 	private String student_id = "";   // declare and initialize student_id
 	private int missed = 0;   // declare and initialize missed
-	
+
+	/**
+	 * This is a method for initialization
+	 */
 	public Attendance() {   // make public method 'Attendance'
 		this.name = "Null";   // initialize this.name
 		this.year = 0;   // initialize this.year
@@ -14,6 +21,9 @@ public class Attendance {   // make public class 'Attendance'
 		this.missed = 0;   // initialize this.missed
 	}
 	
+	/**
+	 * This is a method for getting values
+	 */
 	public Attendance(String name, int year, String student_id, int missed) {   // make public method 'Attendance', and parameter is name, year, student_id, missed
 		this.name = name;   // this.name is name
 		this.year = year;   // this.year is year
@@ -21,34 +31,59 @@ public class Attendance {   // make public class 'Attendance'
 		this.missed = missed;   // this.missed is missed
 	}
     
+	/**
+	 * This is a method for returning name
+	 */
 	public String get_name() {   // make public method 'get_name'
 		return name;   // return name value
 	}
 	
+	/**
+	 * This is a method for returning yeaer
+	 */
 	public int get_year() {   // make public method 'get_year'
 		return year;  // return year value
 	}
 	
+	/**
+	 * This is a method for returning sudent_id
+	 */
 	public String get_id() {   // make public method 'get_id'
 		return student_id;   // return student_id value
 	}
 	
+	/**
+	 * This is a method for returning missed
+	 */
 	public int get_missed() {   // make public method 'get_missed'
 		return missed;   // return missed value
 	}
 	
+	
+	/**
+	 * This is a method for setting name
+	 */
 	public void set_name(String name) {   // make public method 'set_name', and parameter is name
 		this.name = name;    // this.name is name
 	}
 	
+	/**
+	 * This is a method for returning year
+	 */
 	public void set_year(int year) {    // make public method 'set_year', and parameter is year
 		this.year = year;   // this.year is year
 	}
 	
+	/**
+	 * This is a method for student_id
+	 */
 	public void set_id(String student_id) {    // make public method 'set_id', and parameter is student_id
 		this.student_id = student_id;    // this.student_id is student_id
 	}
 	
+	/**
+	 * This is a method for returning missed
+	 */
 	public void set_missed(int missed) {    // make public method 'set_missed', and parameter is missed
 		this.missed = missed;   // this.missed is missed
 	}
